@@ -1,0 +1,28 @@
+{
+  "name": "dafeiyu-desktop",
+  "version": "0.4.9",
+  "private": true,
+  "type": "module",
+  "description": "大肥鱼桌面端 — 一个图标、一个窗口、后台自动带起全部服务",
+  "main": "src/main/index.mjs",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --mode development && electron .",
+    "start": "electron .",
+    "typecheck": "tsc --noEmit",
+    "core": "python -m dfy_core.app",
+    "check": "npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "44.7.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

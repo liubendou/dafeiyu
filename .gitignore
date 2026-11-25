@@ -1,0 +1,12 @@
+node_modules/
+dist/
+out/
+.runtime/
+state/
+config.json
+*.log
+*.bak
+*.bak-*
+__pycache__/
+*.pyc
+.DS_Store

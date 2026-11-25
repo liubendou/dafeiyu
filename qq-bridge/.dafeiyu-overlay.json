@@ -1,0 +1,23 @@
+{
+  "version": "2026-10-25",
+  "files": [
+    "dsh/agent-presets/qq-chat-v2/agent.cordis.yml",
+    "plugins/qq-agent-presets/presets/qq-chat-v2.patch.yml",
+    "public/console.html",
+    "scripts/audit-bridge-harness.mjs",
+    "scripts/console-ui-contracts.json",
+    "scripts/test-bili-bridge.mjs",
+    "scripts/test-bili-control.mjs",
+    "scripts/test-image-bridge.mjs",
+    "scripts/test-image-search.mjs",
+    "scripts/test-long-memory-bridge.mjs",
+    "scripts/test-long-memory.mjs",
+    "src/bili-control.js",
+    "src/bridge.js",
+    "src/image-search.js",
+    "src/long-memory.js",
+    "src/mcp-snowluma-safe.js",
+    "src/safe-fetch.js"
+  ],
+  "appliedAt": "2026-10-26T03:50:44.967Z"
+}

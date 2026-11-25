@@ -1,0 +1,13 @@
+{
+  "_comment": "只读接管用的路径与端口。密钥不在此处，也不允许出现在这里。",
+  "ports": {
+    "astrbot_webui": 6185,
+    "astrbot_onebot": 6199,
+    "napcat_webui": 6099
+  },
+  "expected_whitelist": {
+    "owner": "<OWNER_QQ>",
+    "groups": ["<GROUP_A>", "<GROUP_B>"],
+    "forbidden_group": "<FORBIDDEN_GROUP>"
+  }
+}
